@@ -25,7 +25,7 @@ def main():
    print("--------- Character Count -------")
    for sc in sorted_chars:
       if sc["char"].isalpha():
-         print(f"{sc["char"]}: {sc["num"]}")
+         print(f'{sc["char"]}: {sc["num"]}')
    print("============= END ===============")
 
 
